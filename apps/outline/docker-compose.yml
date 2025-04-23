@@ -11,6 +11,7 @@ services:
       - SECRET_KEY=${OUTLINE_SECRET_KEY}
       - UTILS_SECRET=${OUTLINE_UTILS_SECRET}
       - URL=https://${APP_DOMAIN}
+      - COLLABORATION_URL=https://${APP_DOMAIN}/dummy
       - FORCE_HTTPS=false
       - FILE_STORAGE=local
       - FILE_STORAGE_UPLOAD_MAX_SIZE=26214400
