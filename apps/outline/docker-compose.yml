@@ -11,6 +11,7 @@ services:
       - SECRET_KEY=${OUTLINE_SECRET_KEY}
       - UTILS_SECRET=${OUTLINE_UTILS_SECRET}
       - URL=https://${APP_DOMAIN}
+      - PORT=8404
       - COLLABORATION_URL=https://${APP_DOMAIN}/dummy
       - FORCE_HTTPS=false
       - FILE_STORAGE=local
@@ -87,6 +88,7 @@ services:
       - SECRET_KEY=${OUTLINE_SECRET_KEY}
       - UTILS_SECRET=${OUTLINE_UTILS_SECRET}
       - URL=https://${APP_DOMAIN}
+      - PORT=8404
       - COLLABORATION_URL=https://${APP_DOMAIN}/dummy
       - FORCE_HTTPS=false
       - FILE_STORAGE=local
